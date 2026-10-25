@@ -1,0 +1,17 @@
+{
+  "name": "turnolocal",
+  "version": "1.0.0",
+  "description": "Problema real que intenta resolver:\r La desorganización y pérdida de tiempo en la reserva de citas para pequeños negocios locales, los cuales actualmente gestionan sus turnos mediante mensajes de WhatsApp o libretas de papel, generando solapamiento de horarios y largas esperas físicas.\r Usuario principal:\r Clientes (18 a 45 años) que valoran la optimización de su tiempo, y dueños o empleados de pequeños locales estéticos que necesitan automatizar su agenda.\r Necesidad concreta del usuario:\r El cliente necesita consultar la disponibilidad y apartar un turno en tiempo real sin esperar una respuesta humana. El dueño del local necesita un calendario digital centralizado que se actualice automáticamente para evitar huecos en su jornada.\r ¿Qué evidencia tienes de que este problema existe?\r Las salas de espera saturadas en los locales durante los fines de semana, la pérdida de clientes por no recibir confirmación rápida de su cita vía chat, y el estrés de los trabajadores al tener que interrumpir su labor para contestar el teléfono o revisar mensajes de WhatsApp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}

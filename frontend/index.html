@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba API TurnoLocal</title>
+</head>
+<body>
+  <h1>Prueba de Comunicación API - TurnoLocal</h1>
+  <button onclick="obtenerTurnos()">Probando GET (/api/turnos)</button>
+  <button onclick="crearTurno()">Probando POST (/api/turnos)</button>
+
+  <script>
+    // Prueba GET
+    async function obtenerTurnos() {
+      const res = await fetch('http://localhost:3000/api/turnos');
+      const data = await res.json();
+      console.log('Respuesta GET:', data);
+    }
+
+    // Prueba POST
+    async function crearTurno() {
+      const nuevoTurno = { nombre: "Carlos Perez", fecha: "2026-10-30", hora: "15:00" };
+      const res = await fetch('http://localhost:3000/api/turnos', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(nuevoTurno)
+      });
+      const data = await res.json();
+      console.log('Respuesta POST:', data);
+    }
+  </script>
+</body>
+</html>

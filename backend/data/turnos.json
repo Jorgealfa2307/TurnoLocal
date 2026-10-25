@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "cliente_nombre": "Carlos Pérez",
+    "cliente_telefono": "+573001234567",
+    "servicio": "Corte y barba",
+    "fecha_turno": "2026-10-30",
+    "hora_turno": "15:00",
+    "estado": "confirmado"
+  },
+  {
+    "id": "2",
+    "cliente_nombre": "María Gómez",
+    "cliente_telefono": "+573109876543",
+    "servicio": "Corte de cabello",
+    "fecha_turno": "2026-10-30",
+    "hora_turno": "16:00",
+    "estado": "confirmado"
+  },
+  {
+    "id": "3",
+    "cliente_nombre": "Andrés López",
+    "cliente_telefono": "+573201112233",
+    "servicio": "Barba tradicional",
+    "fecha_turno": "2026-10-31",
+    "hora_turno": "10:00",
+    "estado": "cancelado"
+  }
+]
